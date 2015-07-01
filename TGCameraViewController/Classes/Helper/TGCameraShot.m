@@ -72,6 +72,9 @@
 
 + (UIImage *)cropImage:(UIImage *)image withCropSize:(CGSize)cropSize
 {
+    // Expense only-change (return original picture)
+    return image;
+    
     UIImage *newImage = nil;
     
     CGSize imageSize = image.size;
